@@ -1,0 +1,8 @@
+[package]
+name = "poseidon"
+version = "0.1.0"
+edition = "2018"
+
+
+[dependencies]
+zokrates_field = { version = "0.4", path = "../ZoKrates/zokrates_field", default-features = false }
