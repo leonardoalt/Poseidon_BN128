@@ -5,4 +5,4 @@ edition = "2018"
 
 
 [dependencies]
-zokrates_field = { version = "0.4", path = "../ZoKrates/zokrates_field", default-features = false }
+zokrates_field = { git = "https://github.com/Zokrates/ZoKrates", branch = "develop" }
